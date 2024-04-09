@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoBlazor", "TodoBlazor\TodoBlazor.csproj", "{90FE599B-93E8-430D-BEF9-CA3BFACC6356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoBlazor", "TodoBlazor\TodoBlazor.csproj", "{90FE599B-93E8-430D-BEF9-CA3BFACC6356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{5BF45BAA-818C-4BA0-8713-5C81FA1FD768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{90FE599B-93E8-430D-BEF9-CA3BFACC6356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FE599B-93E8-430D-BEF9-CA3BFACC6356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FE599B-93E8-430D-BEF9-CA3BFACC6356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF45BAA-818C-4BA0-8713-5C81FA1FD768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF45BAA-818C-4BA0-8713-5C81FA1FD768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF45BAA-818C-4BA0-8713-5C81FA1FD768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF45BAA-818C-4BA0-8713-5C81FA1FD768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
