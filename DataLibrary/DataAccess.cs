@@ -4,7 +4,7 @@ using System.Data;
 
 namespace DataLibrary
 {
-    public class DataAccess
+    public class DataAccess : IDataAccess
     {
         public List<T> LoadData<T, U>(string sql, U parameters, string connectionString)
         {
