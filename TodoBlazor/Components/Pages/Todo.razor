@@ -1,6 +1,9 @@
 ﻿@page "/todo"
 @rendermode InteractiveServer
 
+@using DataLibrary
+@inject IDataAccess _data
+
 <PageTitle>Todo</PageTitle>
 
 <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
