@@ -18,7 +18,7 @@
 else
 {
     <ul>
-        @foreach (var todo in todos)
+        @foreach (var todo in todoList)
         {
             <li>
                 <input type="checkbox" @bind="todo.IsDone" />
@@ -36,7 +36,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        string sql = "select * from todoList";
+        string sql = "select * from todos";
         todoList = await _data.LoadData<TodoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
     }
 
