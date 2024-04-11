@@ -22,6 +22,11 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
+    protected override async Task OnInitializedAsync()
+    {
+        // await _data.LoadData;
+    }
+
     private string? newTodo;
     private List<TodoItem> todos = new();
 
